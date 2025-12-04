@@ -1,0 +1,36 @@
+
+.container{
+  display: flex;
+  background-color: #29436d;
+  justify-content: flex-start;
+  
+}
+
+.imgContainer{
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.secondContainer{
+  padding: 15 px;
+}
+
+.h1{
+
+}
+
+.para{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color: white;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display:-webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

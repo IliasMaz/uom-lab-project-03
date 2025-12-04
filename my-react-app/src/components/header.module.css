@@ -1,0 +1,46 @@
+body {
+  background-color: #29436d;
+}
+
+.divHeader{
+  display: flex;
+  align-items: center;
+
+  padding: 6px;
+  margin-left: 5px;
+}
+.imgHeader{
+  margin-left: 25px;
+  height: 65px;
+  width: 50px;
+  margin-right: 355px;
+}
+
+.container {
+
+  margin: 45px 40px;
+  color: antiquewhite;
+  background-color: #21222A;
+  border-radius: 15px;
+
+}
+
+.secondContainer{
+  display: flex;
+}
+
+.bigImageContainer{
+  width: 125px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.imgBig{
+  object-fit: 100%;
+  height: 100%;
+  width: 100%;
+}
+
