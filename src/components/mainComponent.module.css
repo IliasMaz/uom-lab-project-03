@@ -3,7 +3,8 @@
   display: flex;
   background-color: #29436d;
   justify-content: flex-start;
-  
+  padding: 10px;
+
 }
 
 .imgContainer{

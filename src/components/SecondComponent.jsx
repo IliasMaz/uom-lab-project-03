@@ -2,7 +2,7 @@ import styles from "./secondComponent.module.css";
 
 export default function SecondComponent() {
   return (
-    <div>
+    <div className={styles.maindiv}>
       <h1>Universe</h1>
       <h2>Galaxy</h2>
       <h3>Solar System</h3>
