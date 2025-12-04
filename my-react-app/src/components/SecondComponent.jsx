@@ -25,32 +25,32 @@ export default function SecondComponent() {
       </ul>
       <hr />
       <div>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
-        <a className={styles.a} href="https:www.google.com">
+        <a className={styles.a} href="https://www.google.com">
           Google
         </a>
       </div>
-      
+
 
       <hr />
     </div>
