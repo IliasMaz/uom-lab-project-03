@@ -1,28 +1,37 @@
+// src/components/SecondPage.jsx
 import paokSunthima from "../assets/paok.mp3";
-import lacta from "../assets/lacta.mp4"
+import lactaVideo from "../assets/lacta.mp4";
 
 export default function SecondPage() {
   return (
-    <div>
+    <div style={{ padding: "2rem", color: "white" }}>
       <header>
-        <h1>Second Page</h1>
+        <h2>PAOK & Lacta Media</h2>
       </header>
+
       <main>
-        <h1> Sunthima Tou paok</h1>
-        <audio controls>
-          <source src={paokSunthima} type="audio/mpeg" /> Anavailable content,
-          check ur browser
-        </audio>
-        <hr />
-        <h4>Lacta</h4>
-        <video
-          width="400"
-          height="auto"
-          controls
-          style={{ border: "2px solid white", borderRadius: "8px" }}
-        >
-          <source src={lacta} type="video/mp4" />
-        </video>
+        {/* Audio */}
+        <section style={{ marginBottom: "2rem" }}>
+          <h3>PAOK Sunthima</h3>
+          <audio controls>
+            <source src={paokSunthima} type="audio/mpeg" />Ο browser σου δεν
+            υποστηρίζει το audio tag.
+          </audio>
+        </section>
+
+        {/* Video */}
+        <section>
+          <h3>Lacta Video</h3>
+          <video
+            width="900"
+            height="506"
+            controls
+            style={{ border: "2px solid white", borderRadius: "8px" }}
+          >
+            <source src={lactaVideo} type="video/mp4" />Ο browser σου δεν
+            υποστηρίζει το video tag.
+          </video>
+        </section>
       </main>
     </div>
   );
